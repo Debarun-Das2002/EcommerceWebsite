@@ -1,0 +1,68 @@
+.checkborder {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .checkbox {
+    height: 30%;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.473);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+  
+  .chebtn {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .checkbox {
+      width: 50%;
+      height: 35%;
+    }
+  
+    .chebtn {
+      margin-left: 4rem;
+      margin-right: 4rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .checkbox {
+      width: 70%;
+      height: 40%;
+    }
+  
+    .chebtn {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .checkbox {
+      width: 90%;
+      height: 50%;
+    }
+  
+    .chebtn {
+      margin-left: 2rem;
+      margin-right: 2rem;
+    }
+  }
+  

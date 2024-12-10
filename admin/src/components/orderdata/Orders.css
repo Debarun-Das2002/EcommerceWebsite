@@ -1,0 +1,24 @@
+
+
+#orderid{
+    width: 150px;
+    height: 150px;
+}
+
+#ordercheckbox{
+    width: 30px;
+    height: 30px;
+}
+
+#dataCard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cardBody{
+    width: 18rem;
+    display: flex;
+    
+}
+

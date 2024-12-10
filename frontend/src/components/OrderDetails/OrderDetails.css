@@ -1,0 +1,92 @@
+.OrderList {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    gap: 1rem;
+    padding: 15px;
+    background: #F7ECEA;
+    border: 1px solid #ED7A5D;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+  }
+  
+  .OrderList:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .myOrderbox {
+    display: flex;
+    gap: 3rem;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .myOrderbox:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px #ED7A5D;
+  }
+  
+  .myOrderImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .myOrderImage:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .OrderList {
+      padding: 10px;
+    }
+  
+    .myOrderbox {
+      gap: 2rem;
+    }
+  
+    .myOrderImage {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .OrderList {
+      padding: 8px;
+    }
+  
+    .myOrderbox {
+      gap: 1rem;
+    }
+  
+    .myOrderImage {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .OrderList {
+      padding: 5px;
+    }
+  
+    .myOrderbox {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+  
+    .myOrderImage {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  

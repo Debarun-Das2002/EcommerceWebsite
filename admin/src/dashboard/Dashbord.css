@@ -1,0 +1,34 @@
+
+
+.img{
+    
+    height: 150px;
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+
+
+
+
+
+ 
+
+
+#addbtn{
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+
+    position: fixed;
+    bottom: 35px;
+    right: 35px;
+}
+
+#dashbtn{
+    display: flex;
+    
+    justify-content: space-evenly;
+}

@@ -1,0 +1,107 @@
+.cartImg {
+    width: 7rem;
+    height: 7rem;
+  }
+  
+  .quantity_editor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  label {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .editbtn {
+    width: 2rem;
+    height: 2rem;
+    border: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .total {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .payment_button {
+    padding: 5px;
+    border-radius: 9px;
+  }
+  
+  #icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1200px) {
+    .cartImg {
+      width: 6rem;
+      height: 6rem;
+    }
+  
+    .editbtn {
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+  
+    #icon {
+      width: 45px;
+      height: 45px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .cartImg {
+      width: 5rem;
+      height: 5rem;
+    }
+  
+    .editbtn {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  
+    #icon {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cartImg {
+      width: 4rem;
+      height: 4rem;
+    }
+  
+    .editbtn {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  
+    #icon {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .total {
+      flex-direction: row;
+      gap: 0.5rem;
+    }
+  
+    .payment_button {
+      padding: 3px;
+      border-radius: 5px;
+    }
+  }
+  

@@ -1,0 +1,35 @@
+.addContainer{
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.formContainer{
+    background-color: green;
+    width: 70%;
+    height: 95%;
+    padding: 2rem;
+    
+}
+
+.mainform{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+#imgform{
+    display: flex;
+}
+
+.details{
+   
+    display: flex;
+    flex-direction: column;
+    height: 55%;
+    width: 100%;
+    
+}
+
